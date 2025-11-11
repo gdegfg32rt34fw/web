@@ -36,33 +36,43 @@
         </div>
       </nav>
 
-      <section class="hero__content" id="home" data-section="home" data-reveal>
-        <p class="hero__eyebrow">Persian-inspired desserts in Baulkham Hills</p>
-        <h1 class="hero__title">A sweet destination for refined indulgence.</h1>
-        <p class="hero__subtitle">
-          Discover hand-crafted pastries and cookies infused with Middle Eastern flavours.
-          From creamy delights to delicate biscuits, every bite is a celebration of artistry
-          and tradition.
-        </p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="#menu">Explore the menu</a>
-          <a class="btn btn--ghost" href="#visit">Plan your visit</a>
-        </div>
-        <ul class="hero__metrics">
-          <li>
-            <strong>4.8★</strong>
-            <span>Beloved by Baulkham Hills locals</span>
-          </li>
-          <li>
-            <strong>Persian</strong>
-            <span>Heritage desserts & modern classics</span>
-          </li>
-          <li>
-            <strong>Late</strong>
-            <span>Evening ambience & dessert tastings</span>
-          </li>
-        </ul>
-      </section>
+      <div class="hero__inner">
+        <section class="hero__content" id="home" data-section="home" data-reveal>
+          <p class="hero__eyebrow">Persian-inspired desserts in Baulkham Hills</p>
+          <h1 class="hero__title">A sweet destination for refined indulgence.</h1>
+          <p class="hero__subtitle">
+            Discover hand-crafted pastries and cookies infused with Middle Eastern flavours.
+            From creamy delights to delicate biscuits, every bite is a celebration of
+            artistry and tradition.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#menu">Explore the menu</a>
+            <a class="btn btn--ghost" href="#visit">Plan your visit</a>
+          </div>
+          <ul class="hero__metrics">
+            <li>
+              <strong>4.8★</strong>
+              <span>Beloved by Baulkham Hills locals</span>
+            </li>
+            <li>
+              <strong>Persian</strong>
+              <span>Heritage desserts & modern classics</span>
+            </li>
+            <li>
+              <strong>Late</strong>
+              <span>Evening ambience & dessert tastings</span>
+            </li>
+          </ul>
+        </section>
+        <figure class="hero__media" data-reveal>
+          <img
+            src="assets/hero-display.svg"
+            alt="Display of saffron, pistachio, and rosewater desserts prepared at Saffran Patisserie"
+            loading="lazy"
+          />
+          <figcaption>Signature dessert towers created fresh each evening.</figcaption>
+        </figure>
+      </div>
       <div class="hero__marquee" aria-hidden="true">
         <div class="hero__marquee-track">
           <span>Artisan baklava • Saffron profiteroles • Pistachio cakes • Rosewater cream puffs • </span>
@@ -76,7 +86,14 @@
 
     <main>
       <section class="section section--split" id="story" data-reveal>
-        <div class="section__media gradient-card" data-tilt data-reveal aria-hidden="true"></div>
+        <figure class="section__media" data-reveal>
+          <img
+            src="assets/interior-lounge.svg"
+            alt="Warm evening seating with pendant lighting inside Saffran Patisserie"
+            loading="lazy"
+          />
+          <figcaption>Evenings glow with curated music, lighting, and dessert theatrics.</figcaption>
+        </figure>
         <div class="section__content" data-reveal>
           <h2>Crafted with heritage</h2>
           <p>
@@ -104,6 +121,12 @@
         </div>
         <div class="card-grid">
           <article class="card" data-tilt data-reveal>
+            <img
+              class="card__image"
+              src="assets/pastry-tray.svg"
+              alt="Creamy saffron pastries topped with pistachio"
+              loading="lazy"
+            />
             <h3>Mix Creamy Pastries</h3>
             <p>
               A luxurious assortment of éclairs, mille-feuille, and cream puffs featuring
@@ -111,6 +134,12 @@
             </p>
           </article>
           <article class="card" data-tilt data-reveal>
+            <img
+              class="card__image"
+              src="assets/cookie-display.svg"
+              alt="Selection of Persian cookies with rose petals and pistachio"
+              loading="lazy"
+            />
             <h3>Mix Persian Cookies</h3>
             <p>
               Delicate handcrafted cookies with fragrant spices and nuts, ideal for gifting
@@ -118,6 +147,12 @@
             </p>
           </article>
           <article class="card" data-tilt data-reveal>
+            <img
+              class="card__image"
+              src="assets/cake-celebration.svg"
+              alt="Layered celebration cake with saffron and pistachio finishes"
+              loading="lazy"
+            />
             <h3>Celebration Cakes</h3>
             <p>
               Bespoke cakes layered with light sponges, silky fillings, and intricate décor
@@ -125,6 +160,12 @@
             </p>
           </article>
           <article class="card" data-tilt data-reveal>
+            <img
+              class="card__image"
+              src="assets/seasonal-special.svg"
+              alt="Seasonal dessert flight with saffron and citrus accents"
+              loading="lazy"
+            />
             <h3>Seasonal Specials</h3>
             <p>
               Limited-edition pastries inspired by Middle Eastern classics and crafted to
@@ -176,18 +217,38 @@
           </p>
         </div>
         <div class="gallery-grid">
-          <div class="gallery-card" data-tilt data-reveal>
-            <span>Elegant counter displays</span>
-          </div>
-          <div class="gallery-card" data-tilt data-reveal>
-            <span>Hand-piped pastries</span>
-          </div>
-          <div class="gallery-card" data-tilt data-reveal>
-            <span>Persian-inspired details</span>
-          </div>
-          <div class="gallery-card" data-tilt data-reveal>
-            <span>Cosy evening ambience</span>
-          </div>
+          <figure class="gallery-card" data-tilt data-reveal>
+            <img
+              src="assets/hero-display.svg"
+              alt="Dessert towers arranged on the Saffran Patisserie counter"
+              loading="lazy"
+            />
+            <figcaption>Elegant counter displays</figcaption>
+          </figure>
+          <figure class="gallery-card" data-tilt data-reveal>
+            <img
+              src="assets/pastry-tray.svg"
+              alt="Pastry chef finishing cream-filled saffron pastries"
+              loading="lazy"
+            />
+            <figcaption>Hand-piped pastries</figcaption>
+          </figure>
+          <figure class="gallery-card" data-tilt data-reveal>
+            <img
+              src="assets/cookie-display.svg"
+              alt="Persian cookies topped with pistachio and rose petals"
+              loading="lazy"
+            />
+            <figcaption>Persian-inspired details</figcaption>
+          </figure>
+          <figure class="gallery-card" data-tilt data-reveal>
+            <img
+              src="assets/interior-lounge.svg"
+              alt="Softly lit seating inside the patisserie during evening service"
+              loading="lazy"
+            />
+            <figcaption>Cosy evening ambience</figcaption>
+          </figure>
         </div>
         <p class="gallery-note">
           Want to see more? Follow us on

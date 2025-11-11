@@ -1,0 +1,38 @@
+<svg width="560" height="360" viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Seasonal dessert flight</title>
+  <desc id="desc">Arrangement of seasonal Persian desserts with citrus and saffron highlights.</desc>
+  <defs>
+    <linearGradient id="seasonBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff5e8" />
+      <stop offset="100%" stop-color="#f1cfaa" />
+    </linearGradient>
+  </defs>
+  <rect width="560" height="360" rx="40" fill="url(#seasonBg)" />
+  <g fill="#f6d9a6">
+    <ellipse cx="180" cy="250" rx="120" ry="60" />
+    <ellipse cx="360" cy="240" rx="140" ry="70" />
+  </g>
+  <g fill="#f19a3c">
+    <circle cx="160" cy="220" r="52" />
+    <circle cx="210" cy="280" r="42" />
+    <circle cx="330" cy="230" r="48" />
+  </g>
+  <g fill="#c6d89d">
+    <circle cx="400" cy="220" r="40" />
+    <circle cx="430" cy="280" r="36" />
+  </g>
+  <g fill="#e4a4b5">
+    <circle cx="250" cy="200" r="28" />
+    <circle cx="300" cy="300" r="26" />
+  </g>
+  <g stroke="#fff8ed" stroke-width="6" stroke-linecap="round">
+    <line x1="160" y1="168" x2="160" y2="120" />
+    <line x1="330" y1="178" x2="330" y2="120" />
+    <line x1="430" y1="180" x2="430" y2="120" />
+  </g>
+  <g stroke="#f6b84a" stroke-width="6" stroke-linecap="round">
+    <line x1="160" y1="120" x2="160" y2="114" />
+    <line x1="330" y1="120" x2="330" y2="114" />
+    <line x1="430" y1="120" x2="430" y2="114" />
+  </g>
+</svg>

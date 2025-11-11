@@ -11,3 +11,4 @@ Open `index.html` in your browser to explore the layout. The page pulls in Googl
 - `index.html` – page markup and content.
 - `styles.css` – visual design system and responsive layout rules.
 - `script.js` – enhancements for the mobile navigation toggle, animated reveals, interactive hover tilt, and dynamic footer year.
+- `assets/` – locally illustrated dessert and ambience imagery used throughout the layout.
