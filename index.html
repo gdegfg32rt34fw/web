@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saffran Patisserie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__aurora" aria-hidden="true"></div>
+      <div class="hero__accent hero__accent--one" aria-hidden="true"></div>
+      <div class="hero__accent hero__accent--two" aria-hidden="true"></div>
+      <nav class="nav">
+        <a class="nav__brand" href="#home" aria-label="Saffran Patisserie home"
+          >Saffran Patisserie</a
+        >
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </button>
+        <div class="nav__menu" id="nav-menu">
+          <a href="#story">Our Story</a>
+          <a href="#menu">Signature Treats</a>
+          <a href="#experience">Experience</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#visit">Visit</a>
+        </div>
+      </nav>
+
+      <section class="hero__content" id="home" data-section="home" data-reveal>
+        <p class="hero__eyebrow">Persian-inspired desserts in Baulkham Hills</p>
+        <h1 class="hero__title">A sweet destination for refined indulgence.</h1>
+        <p class="hero__subtitle">
+          Discover hand-crafted pastries and cookies infused with Middle Eastern flavours.
+          From creamy delights to delicate biscuits, every bite is a celebration of artistry
+          and tradition.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#menu">Explore the menu</a>
+          <a class="btn btn--ghost" href="#visit">Plan your visit</a>
+        </div>
+        <ul class="hero__metrics">
+          <li>
+            <strong>4.8★</strong>
+            <span>Beloved by Baulkham Hills locals</span>
+          </li>
+          <li>
+            <strong>Persian</strong>
+            <span>Heritage desserts & modern classics</span>
+          </li>
+          <li>
+            <strong>Late</strong>
+            <span>Evening ambience & dessert tastings</span>
+          </li>
+        </ul>
+      </section>
+      <div class="hero__marquee" aria-hidden="true">
+        <div class="hero__marquee-track">
+          <span>Artisan baklava • Saffron profiteroles • Pistachio cakes • Rosewater cream puffs • </span>
+          <span>Artisan baklava • Saffron profiteroles • Pistachio cakes • Rosewater cream puffs • </span>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll to explore</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section--split" id="story" data-reveal>
+        <div class="section__media gradient-card" data-tilt data-reveal aria-hidden="true"></div>
+        <div class="section__content" data-reveal>
+          <h2>Crafted with heritage</h2>
+          <p>
+            Saffran Patisserie elevates the neighbourhood dessert experience with a curated
+            collection of Persian-inspired pastries. From the moment you walk through the
+            door, warm hospitality and the aroma of freshly baked delights create a
+            welcoming escape from the everyday.
+          </p>
+          <p>
+            Our team combines traditional recipes with modern techniques to bring you a
+            seasonal rotation of delicacies. Whether you're sharing Mix Creamy Pastries with
+            friends or gifting Mix Persian Cookies to someone special, each selection is
+            made fresh in-house for an unforgettable tasting journey.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--cards" id="menu" data-reveal>
+        <div class="section__header" data-reveal>
+          <h2>Signature Treats</h2>
+          <p>
+            A balanced menu of creamy and dry pastries designed to pair perfectly with your
+            favourite brew or celebration.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="card" data-tilt data-reveal>
+            <h3>Mix Creamy Pastries</h3>
+            <p>
+              A luxurious assortment of éclairs, mille-feuille, and cream puffs featuring
+              pistachio, saffron, and rosewater accents.
+            </p>
+          </article>
+          <article class="card" data-tilt data-reveal>
+            <h3>Mix Persian Cookies</h3>
+            <p>
+              Delicate handcrafted cookies with fragrant spices and nuts, ideal for gifting
+              or pairing with tea.
+            </p>
+          </article>
+          <article class="card" data-tilt data-reveal>
+            <h3>Celebration Cakes</h3>
+            <p>
+              Bespoke cakes layered with light sponges, silky fillings, and intricate décor
+              tailored to your moment.
+            </p>
+          </article>
+          <article class="card" data-tilt data-reveal>
+            <h3>Seasonal Specials</h3>
+            <p>
+              Limited-edition pastries inspired by Middle Eastern classics and crafted to
+              showcase premium ingredients.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--experience" id="experience" data-reveal>
+        <div class="section__header" data-reveal>
+          <h2>The experience</h2>
+          <p>
+            A sensory journey that blends the warmth of Persian hospitality with modern,
+            design-forward plating and presentation.
+          </p>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card" data-tilt data-reveal>
+            <h3>Golden hour glow</h3>
+            <p>
+              Immerse yourself in shimmering lighting and curated playlists that transform
+              evening dessert outings into memorable celebrations.
+            </p>
+          </article>
+          <article class="experience-card" data-tilt data-reveal>
+            <h3>Table-side storytelling</h3>
+            <p>
+              Hosts share the heritage behind each pastry, from saffron-infused creams to
+              rosewater syrups, deepening every tasting.
+            </p>
+          </article>
+          <article class="experience-card" data-tilt data-reveal>
+            <h3>Curated pairings</h3>
+            <p>
+              Sip fragrant teas, espresso, or sparkling sips thoughtfully paired to accent
+              pistachio, cardamom, and citrus notes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--gallery" id="gallery" data-reveal>
+        <div class="section__header" data-reveal>
+          <h2>Inside the patisserie</h2>
+          <p>
+            A glimpse at the textures, colours, and ambience that have made Saffran
+            Patisserie a beloved evening destination in Sydney's Hills district.
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-card" data-tilt data-reveal>
+            <span>Elegant counter displays</span>
+          </div>
+          <div class="gallery-card" data-tilt data-reveal>
+            <span>Hand-piped pastries</span>
+          </div>
+          <div class="gallery-card" data-tilt data-reveal>
+            <span>Persian-inspired details</span>
+          </div>
+          <div class="gallery-card" data-tilt data-reveal>
+            <span>Cosy evening ambience</span>
+          </div>
+        </div>
+        <p class="gallery-note">
+          Want to see more? Follow us on
+          <a href="https://www.instagram.com/saffranpatisserie/" target="_blank" rel="noreferrer"
+            >Instagram</a
+          > and
+          <a href="https://www.facebook.com/Saffranpatisserie/" target="_blank" rel="noreferrer"
+            >Facebook</a
+          > for the latest creations.
+        </p>
+      </section>
+
+      <section class="section section--accent" id="visit" data-reveal>
+        <div class="section__header" data-reveal>
+          <h2>Visit Saffran Patisserie</h2>
+          <p>
+            Nestled in Baulkham Hills, we welcome you to relax, connect, and indulge in our
+            award-winning desserts.
+          </p>
+        </div>
+        <div class="visit-grid">
+          <div class="visit-card" data-tilt data-reveal>
+            <h3>Location</h3>
+            <p>Shop 3, 6-10 Old Northern Rd<br />Baulkham Hills NSW 2153</p>
+            <a
+              class="visit-card__link"
+              href="https://maps.google.com/?q=Saffran+Patisserie+Baulkham+Hills"
+              target="_blank"
+              rel="noreferrer"
+              >View on Google Maps</a
+            >
+          </div>
+          <div class="visit-card" data-tilt data-reveal>
+            <h3>Hours</h3>
+            <ul>
+              <li>Monday – Thursday: 10:00 am – 9:00 pm</li>
+              <li>Friday – Saturday: 10:00 am – 10:00 pm</li>
+              <li>Sunday: 10:00 am – 8:00 pm</li>
+            </ul>
+            <small>Hours may vary on public holidays.</small>
+          </div>
+          <div class="visit-card" data-tilt data-reveal>
+            <h3>Stay Connected</h3>
+            <ul class="visit-links">
+              <li>
+                <a href="tel:+61296860150">Call (02) 9686 0150</a>
+              </li>
+              <li>
+                <a href="mailto:hello@saffranpatisserie.com.au">hello@saffranpatisserie.com.au</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.ubereats.com/au/store/saffran-patisserie/EcCte9nXRRWm6nk5oxqvTA"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Order on Uber Eats</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.doordash.com/en-AU/store/saffran-patisserie-baulkham-hills-1970557/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Order on DoorDash</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Saffran Patisserie. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
