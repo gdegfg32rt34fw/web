@@ -1,0 +1,40 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Evening ambience inside Saffran Patisserie</title>
+  <desc id="desc">Dimly lit seating with pendant lights and warm accent glow.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2e3a" />
+      <stop offset="100%" stop-color="#1f171f" />
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#f7d18d" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f7d18d" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#wall)" />
+  <rect width="900" height="600" fill="url(#light)" opacity="0.7" />
+  <g fill="#f4bc63">
+    <rect x="160" y="70" width="10" height="150" rx="5" />
+    <rect x="300" y="70" width="10" height="150" rx="5" />
+    <rect x="450" y="70" width="10" height="150" rx="5" />
+    <rect x="600" y="70" width="10" height="150" rx="5" />
+    <rect x="750" y="70" width="10" height="150" rx="5" />
+    <ellipse cx="165" cy="250" rx="65" ry="45" />
+    <ellipse cx="305" cy="250" rx="65" ry="45" />
+    <ellipse cx="455" cy="250" rx="65" ry="45" />
+    <ellipse cx="605" cy="250" rx="65" ry="45" />
+    <ellipse cx="755" cy="250" rx="65" ry="45" />
+  </g>
+  <g>
+    <rect x="120" y="320" width="150" height="180" rx="40" fill="#432b2d" />
+    <rect x="280" y="320" width="150" height="180" rx="40" fill="#462f32" />
+    <rect x="440" y="320" width="150" height="180" rx="40" fill="#4a3033" />
+    <rect x="600" y="320" width="150" height="180" rx="40" fill="#4d3235" />
+  </g>
+  <g fill="#1c1319" opacity="0.85">
+    <ellipse cx="195" cy="460" rx="120" ry="40" />
+    <ellipse cx="350" cy="460" rx="120" ry="40" />
+    <ellipse cx="515" cy="460" rx="120" ry="40" />
+    <ellipse cx="675" cy="460" rx="120" ry="40" />
+  </g>
+</svg>

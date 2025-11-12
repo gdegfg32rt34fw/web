@@ -1,0 +1,74 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Display of saffron and pistachio desserts at Saffran Patisserie</title>
+  <desc id="desc">Illustrated table with layered Persian desserts presented in warm lighting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fce7d5" />
+      <stop offset="100%" stop-color="#f3c8a2" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#fff7ea" stop-opacity="1" />
+      <stop offset="100%" stop-color="#fbe0bb" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffdf7" />
+      <stop offset="100%" stop-color="#f5d8b6" />
+    </radialGradient>
+    <linearGradient id="pastry1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4c25a" />
+      <stop offset="100%" stop-color="#d77c3f" />
+    </linearGradient>
+    <linearGradient id="pastry2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5a8b4" />
+      <stop offset="100%" stop-color="#c57485" />
+    </linearGradient>
+    <linearGradient id="pastry3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9d8a8" />
+      <stop offset="100%" stop-color="#8ca87a" />
+    </linearGradient>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)" />
+  <rect width="1600" height="1200" fill="url(#glow)" />
+  <g filter="url(#softGlow)">
+    <ellipse cx="800" cy="960" rx="680" ry="240" fill="#e6b78a" opacity="0.4" />
+  </g>
+  <g fill="url(#plate)">
+    <ellipse cx="800" cy="860" rx="560" ry="140" opacity="0.85" />
+    <ellipse cx="760" cy="700" rx="480" ry="120" opacity="0.78" />
+    <ellipse cx="820" cy="560" rx="420" ry="100" opacity="0.76" />
+    <ellipse cx="780" cy="440" rx="360" ry="90" opacity="0.72" />
+  </g>
+  <g transform="translate(0, -40)">
+    <g transform="translate(420 520)">
+      <ellipse cx="0" cy="0" rx="110" ry="90" fill="url(#pastry1)" />
+      <ellipse cx="-10" cy="-10" rx="70" ry="45" fill="#f6e7c8" />
+    </g>
+    <g transform="translate(620 500)">
+      <ellipse cx="0" cy="0" rx="120" ry="92" fill="url(#pastry3)" />
+      <ellipse cx="-15" cy="-15" rx="72" ry="50" fill="#f4efd8" />
+    </g>
+    <g transform="translate(820 520)">
+      <ellipse cx="0" cy="0" rx="130" ry="96" fill="url(#pastry2)" />
+      <ellipse cx="-8" cy="-22" rx="78" ry="54" fill="#fff3e5" />
+    </g>
+    <g transform="translate(1020 500)">
+      <ellipse cx="0" cy="0" rx="120" ry="88" fill="url(#pastry1)" />
+      <ellipse cx="12" cy="-18" rx="70" ry="48" fill="#fdf2de" />
+    </g>
+    <g transform="translate(580 660)">
+      <ellipse cx="0" cy="0" rx="110" ry="86" fill="url(#pastry2)" />
+      <ellipse cx="-10" cy="-16" rx="65" ry="44" fill="#fff6e8" />
+    </g>
+    <g transform="translate(760 660)">
+      <ellipse cx="0" cy="0" rx="130" ry="94" fill="url(#pastry3)" />
+      <ellipse cx="-12" cy="-22" rx="78" ry="52" fill="#f1ead1" />
+    </g>
+    <g transform="translate(940 660)">
+      <ellipse cx="0" cy="0" rx="120" ry="90" fill="url(#pastry1)" />
+      <ellipse cx="18" cy="-16" rx="70" ry="48" fill="#fbeed9" />
+    </g>
+  </g>
+</svg>
